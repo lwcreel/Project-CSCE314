@@ -27,12 +27,12 @@ public class Workouts {
 		private String reminders;
 	
     Workout(String name, Equipment equipment, Muscle primaryMuscle, Muscle secondaryMuscle, String desc, String reminders) {
-    	this.name 			 = name;
-    	this.equipment		 = equipment;
-    	this.primaryMuscle	 = primaryMuscle;
+    	this.name = name;
+    	this.equipment = equipment;
+    	this.primaryMuscle = primaryMuscle;
     	this.secondaryMuscle = secondaryMuscle;
-    	this.desc 			 = desc;
-    	this.reminders		 = reminders;
+    	this.desc = desc;
+    	this.reminders = reminders;
     }
     
     public final String getName() {return this.name;}
